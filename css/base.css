@@ -19,6 +19,7 @@ body {
 	width: 100%;
 	display: flex;
 	background-image: url(/img/back.png);
+	background-size: cover;
 	border-radius: inherit;
 }
 
@@ -145,6 +146,7 @@ body {
 }
 
 #main-menu-friends {
+	max-height: 370px;
 	display: flex;
 	flex-direction: column;
 	color: #b5b5b5;
@@ -158,10 +160,27 @@ body {
 }
 
 #main-menu-friends-menu {
-	max-height: 225px;
 	display: flex;
 	flex-direction: column;
 	overflow-x: hidden;
+}
+
+@media (max-height: 900px) {
+	#main-menu-friends-menu {
+		max-height: 184px;
+		display: flex;
+		flex-direction: column;
+		overflow-x: hidden;
+	}
+}
+
+@media (max-height: 770px) {
+	#main-menu-friends-menu {
+		max-height: 92px;
+		display: flex;
+		flex-direction: column;
+		overflow-x: hidden;
+	}
 }
 
 #main-menu-friends-menu::-webkit-scrollbar {
@@ -179,9 +198,16 @@ body {
 
 #friend {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	padding: 4px 0px 9px 0px;
+	padding: 4px 0px 10px 0px;
+}
+
+#friend-status {
+	padding-right: 6px;
+}
+
+#friend-photo {
+	padding-right: 11.5px;
 }
 
 #friend:hover {
