@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: Lato;
+}
+
+#container {
+	max-width: 1400px;
+	height: 100%;
+	display: flex;
+	margin: auto;
+	padding: 15px 5px 15px 5px;
+	border-radius: 5px;
+}
+
+#main-content {
+	width: 100%;
+	display: flex;
+	background-image: url(/img/back.png);
+	border-radius: inherit;
+}
+
+#nav-menu {
+	border-top-left-radius: inherit;
+	border-bottom-left-radius: inherit;
+	width: 71.5px;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+}
+
+#nav-menu-components {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 10.5px;
+	background-blend-mode: color;
+}
+
+#nav-menu-main-components {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#nav-menu-add-component {
+	border-bottom-left-radius: inherit;
+}
+
+/* ================= Основное меню ================= */
+
+#main-menu {
+	max-width: 260px;
+	height: 100%;
+	background-color: #25272a;
+	color: white;
+	opacity: 0.8;
+	display: flex;
+}
+
+#main-menu-container {
+	display: flex;
+	flex-direction: column;
+	padding: 35px 24px 0px 25.5px;
+}
+
+#main-menu-title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#main-menu-title img {
+	object-fit: contain;
+	margin-left: 78.5px;
+	cursor: pointer;
+}
+
+#main-menu-title select {
+	border: none;
+	appearance: none;
+	background: none;
+	color: white;
+}
+
+#main-menu-container #all-treads {
+	color: #b5b5b5;
+	margin-top: 31.5px;
+	display: flex;
+	cursor: pointer;
+}
+
+#main-menu-container #all-treads img {
+	margin-right: 11px;
+}
+
+#main-menu-channels {
+	display: flex;
+	flex-direction: column;
+	color: #b5b5b5;
+}
+
+#main-menu-channels-title {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 11px;
+	margin-top: 31.5px;
+}
+
+#main-menu-channels-menu {
+	max-height: 314px;
+	margin-bottom: 18px;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+#main-menu-channels-menu::-webkit-scrollbar {
+	width: 5px;
+	border-radius: 5px;
+}
+
+/* Ползунок скроллбара */
+#main-menu-channels-menu:hover::-webkit-scrollbar-thumb {
+	background-color: #4d4f52;
+	width: 5px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+#channel {
+	padding: 4px 0px 9px 13px;
+}
+
+#channel:hover {
+	background-color: #4d4f52;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+#main-menu-friends {
+	display: flex;
+	flex-direction: column;
+	color: #b5b5b5;
+}
+
+#main-menu-friends-title {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 11px;
+	margin-top: 17.5px;
+}
+
+#main-menu-friends-menu {
+	max-height: 225px;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+#main-menu-friends-menu::-webkit-scrollbar {
+	width: 5px;
+	border-radius: 5px;
+}
+
+/* Ползунок скроллбара */
+#main-menu-friends-menu:hover::-webkit-scrollbar-thumb {
+	background-color: #4d4f52;
+	width: 5px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+#friend {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 0px 9px 0px;
+}
+
+#friend:hover {
+	background-color: #4d4f52;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-right: 5px;
+}
