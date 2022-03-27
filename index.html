@@ -9,6 +9,11 @@
 		/>
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/nav_menu.css" />
+		<link rel="stylesheet" href="css/main_menu.css" />
+		<link rel="stylesheet" href="css/chat.css" />
+		<link rel="stylesheet" href="css/user_info.css" />
+
 		<title>Document</title>
 	</head>
 	<body>
@@ -149,7 +154,7 @@
 					</div>
 
 					<div class="chat-main">
-						<div class="chat-block">
+						<div class="chat-block-user">
 							<div class="chat-block-row">
 								<div class="chat-user">
 									<img
@@ -173,9 +178,87 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="chat-area">
+						<div class="chat-area-row">
+							<div class="chat-actions">
+								<img src="img/Attach.png" alt="" id="chat-attach" />
+								<img src="img/Micro.png" alt="" id="chat-micro" />
+							</div>
+							<div class="chat-input">
+								<input type="text" placeholder="Message in #general" />
+							</div>
+							<div class="chat-smile">
+								<img src="img/Smile.png" alt="" id="chat-smile" />
+							</div>
+						</div>
+					</div>
 				</section>
+
 				<!-- ! Информация о пользователе -->
-				<section class="user-info"></section>
+				<section class="user-info">
+					<div class="user-info-container">
+						<div class="user-info-main">
+							<div class="user-info-photo">
+								<img src="img/User_Photo.png" alt="" />
+							</div>
+							<div class="user-info-main-content">
+								<div class="user-info-title">
+									<div class="user-info-name">
+										<div class="user-name">Amillia Luna</div>
+										<div class="user-info-status">
+											<img src="img/Active.png" alt="" />
+										</div>
+									</div>
+									<div class="user-info-status">UI Designer</div>
+								</div>
+
+								<div class="user-info-socialLinks">
+									<img src="img/Facebook.png" alt="" />
+									<img src="img/Twitter.png" alt="" />
+									<img src="img/Instagram.png" alt="" />
+									<img src="img/in.png" alt="" />
+								</div>
+
+								<div class="user-info-message">
+									<div class="message">
+										<button class="btn-message">Message</button>
+									</div>
+									<div class="additional">
+										<button class="btn-additional">
+											<img src="img/Triangle.png" alt="" />
+										</button>
+									</div>
+								</div>
+
+								<div class="user-info-information">
+									<div class="username info">
+										<div class="username-title title">Username</div>
+										<div class="username-main main">@amilia_lu</div>
+									</div>
+									<div class="email info">
+										<div class="email-title title">Email</div>
+										<div class="email-main main">a-luna@gmail.com</div>
+									</div>
+									<div class="skype info">
+										<div class="skype-title title">Skype</div>
+										<div class="skype-main main">amiluna</div>
+									</div>
+									<div class="timezone info">
+										<div class="timezone-title title">timezone</div>
+										<div class="timezone-main main">2:21 PM Local time</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="user-info-turn">
+							<button class="btn-turn">
+								<img src="img/Turn.png" alt="" />
+							</button>
+						</div>
+					</div>
+				</section>
 			</div>
 		</div>
 	</body>
