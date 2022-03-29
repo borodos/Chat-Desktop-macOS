@@ -13,6 +13,7 @@
 	width: 100%;
 	padding: 31.5px 23.5px 14.5px 23.5px;
 	border-bottom: 1px #cecccc solid;
+	margin-bottom: 19px;
 }
 
 .chat-header img {
@@ -99,7 +100,7 @@
 }
 
 .chat-block-user {
-	padding: 19px 0px 14.7px 24px;
+	padding: 0px 0px 14.7px 24px;
 }
 
 .chat-block-user-row {

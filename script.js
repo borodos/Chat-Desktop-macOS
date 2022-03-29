@@ -1,6 +1,3 @@
-const friends = document.querySelector("#main-menu-friends-menu");
-
-if ((fiend.style.maxHeight = "322px")) {
-	console.log("message");
-} else {
-}
+const chatMain = document.querySelector(".chat-main");
+const chatUser = document.querySelector(".chat-block-user");
+const chatInput = document.querySelector("#chat-input");
